@@ -1,0 +1,96 @@
+
+body,html {
+
+    height:100%;
+    width:100%;
+    background-color: #A9BCD0;
+    color:#373F51;
+  }
+
+.btn-outline-secondary{
+    background-color:#D8DBE2;
+}
+
+.btn-outline-secondary:hover{
+    background-color:#1b1b1e;
+}
+
+.padding{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.card{
+    height: 100%;
+    background-color: #D8DBE2;
+    border:none;
+    box-shadow: 10px 5px 10px #A9BCD0;
+}
+
+.card-img-top{
+    height: 304px;
+}
+
+.fa-linkedin, .fa-github,.fa-codepen{
+    color:#373F51;
+    font-size: 6rem;
+    margin:2rem;
+}
+
+hr{
+    border-top: 2px solid #A9BCD0;
+}
+
+#navigation-bar
+{
+    background-color: #1b1b1e;
+}
+
+#landing{
+    background-color: #58A4b0;
+    min-height: 100vh;
+}
+#landing h1{
+    text-shadow: #1b1b1e 10px 5px 10px;
+}
+
+#about{
+    background-color: #D8DBE2;
+    
+}
+#about a{
+    color:#58A4b0;
+}
+
+#skills{
+    background-color: #D8DBE2;
+    
+}
+
+#tech-skills{
+    background-color:#58A4b0;
+    padding-bottom: 0.25rem;
+    box-shadow: 10px 5px 5px #A9BCD0;
+
+}
+
+#portfolio{
+    background-color:#373F51;
+}
+
+#portfolio h1{
+    color:#A9BCD0;
+}
+
+#contact{
+    background-color:#58a4b0;
+}
+
+#contact-form{
+    background-color:#373F51;
+    color:#A9BCD0;
+}
+
+footer{
+    background-color:#1b1b1e;
+}

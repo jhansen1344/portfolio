@@ -1,40 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jeremy Hansen</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeremy Hansen</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
-<body>
 
+<body data-spy="scroll" data-target="#navigation-bar">
 
+  <!--Nav bar-->
 
+  <nav class=" navbar navbar-expand-sm navbar-dark" id="navigation-bar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class=" nav-link" href="#about">About </a></li>
+        <li class="nav-item"><a class=" nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class=" nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!--Landing-->
 
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-center" id="landing">
+      <div class="text-center">
+        <h1 class="display-1">Jeremy Hansen</h1>
+        <hr>
+        <h2 class="display-8">Software Development Student</h2>
+      </div>
+    </div>
+  </div>
+  <!--About-->
+  <div class="container padding" id="about">
+    <h1 class="display-8">About</h1 class>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8">
 
+        <p>My journey into software development began with an introductory programming course as an undergraduate in
+          Mechanical Engineering. The course covered strings, integers, loops and conditionals in VBA. </p>
+        <p>Years later I found myself with a rather complicated problem in Excel. I dusted off those VBA skills and
+          realized
+          that I didn’t know much. Google introduced me to Stack Overflow, and through both I learned about string
+          manipulation, lists, dictionaries, and classes. This enabled me to solve the problem I was working on and
+          provided
+          solutions to two more. </p>
+        <p>After deciding to make a career change to software development, I enrolled in <a
+            href="https://elevenfifty.org/courses/full-time-immersive/software-development/" target=_blank>Eleven Fifty
+            Academy</a>’s 12-week immersive software development course in January 2020. This course has allowed me to
+          build
+          on my existing knowledge, learn new skills and develop better coding practices.</p>
+      </div>
 
+      <!--Skills-->
+      <div class="col-xs-12 col-sm-12 col-md-4" id="skills">
+          <div class="row justify-content-center">
+              <div class="col-xs-12 col-sm-12 col-md-10 rounded-lg padding" , id="tech-skills">
+                <h5>Skills</h5>
+                <hr>
+                <ul>
+                  <li>C#</li>
+                  <li>.NET Framework</li>
+                  <li>HTML5/CSS3</li>
+                  <li>Github</li>
+                  <li>Visual Studio</li>
+                  <li>Agile/Scrum</li>
+                  <li>Troubleshooting</li>
+                  <li>Facilitating</li>
+                  <li>Spanish - Professional Working Proficiency</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <!--Portfolio-->
+  <div class="container padding" id="portfolio">
+    <div class="row welcome">
+      <div class="col-12">
+        <h1 class="display-8">Portfolio</h1>
+      </div>
+    </div>
+    <hr>
+    <div class="container padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="assets/StaticStore.png" alt="Static">
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Static Game Board Store</h4>
+              <p class="card-text"> Static web page for a demo store.</p>
+              <a href="https://jhansen1344.github.io/static-store-front/" target=_blank;
+                class="btn btn-outline-secondary mt-auto">View on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="assets/DungeonCrawler.PNG" alt="DungeonCrawler">
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Dungeon-Crawler</h4>
+              <p class="card-text">Text-based game created with partner during in-class assignment at Eleven Fifty. </p>
+              <a href="https://github.com/jhansen1344/SomeDungeonCrawler-master" target=_blank;
+                class="btn btn-outline-secondary mt-auto">View on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="assets/Creature.PNG" alt="Creature">
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">CSS Creature</h4>
+              <p class="card-text"> Fish styled using only HTML and CSS.</p>
+              <a href="https://codepen.io/jhansen1344/pen/rNabpWJ" target=_blank;
+                class="btn btn-outline-secondary mt-auto">View
+                on CodePen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="" alt="Project4">
+            <div class="card-body">
+              <h4 class="card-title">Project4</h4>
+              <p class="card-text"> Project4 description</p>
+              <a href="#" target=_blank; class="btn btn-outline-secondary">View on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="" alt="Project5">
+            <div class="card-body">
+              <h4 class="card-title">Project5</h4>
+              <p class="card-text"> Project5 description</p>
+              <a href="#" target=_blank; class="btn btn-outline-secondary">View on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="" alt="Project6">
+            <div class="card-body">
+              <h4 class="card-title">Project6</h4>
+              <p class="card-text"> Project6 description</p>
+              <a href="#" target=_blank; class="btn btn-outline-secondary">View on Github</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!--Highlights-->
 
+  <!--Contact-->
+  <div class="container padding" id="contact">
+    <div class="row padding">
+      <div class="col-12">
+        <h1 class="display-8">Get in Touch</h1">
+          <hr>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 text-center social padding">
+        <a href="https://www.linkedin.com/in/jeremy-hansen/" target=_blank;><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jhansen1344?tab=projects" target=_blank;><i class="fab fa-github"></i></a>
+        <a href="https://codepen.io/jhansen1344" target=_blank><i class="fab fa-codepen"></i></a>
+      </div>
+    </div>
+    <div class="row padding justify-content-center">
+      <div class="col-8 rounded-lg padding" id="contact-form">
+        <form action="https://formspree.io/xbjonzov" method="POST">
+          <div class="form-group">
+            <label for="emailInput">Your Email Address</label>
+            <input type="email" name="_replyto" class="form-control" id="emailInput"
+              placeholder="yourname@IWantToHireJeremy.com">
+          </div>
+          <div class="form-group">
+            <label for="messageTextArea">Message:</label>
+            <textarea class="form-control" name="message" id="messageTextArea" rows="3"></textarea>
+          </div>
+          <button class="btn-outline-secondary float-right" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
 
+  </div>
 
+  <footer class="container-fluid padding">
+    <h5>&copy 2020 Jeremy Hansen</h5>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
 </body>
 
 </html>
