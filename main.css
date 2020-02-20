@@ -7,6 +7,14 @@ body,html {
     color:#373F51;
   }
 
+hr{
+    border-top: 2px solid #A9BCD0;
+}
+
+footer{
+    background-color:#1b1b1e;
+}
+
 .btn-outline-secondary{
     background-color:#D8DBE2;
 }
@@ -37,8 +45,9 @@ body,html {
     margin:2rem;
 }
 
-hr{
-    border-top: 2px solid #A9BCD0;
+.img-fluid{
+    max-width: 100%;
+    height: auto;
 }
 
 #navigation-bar
@@ -63,15 +72,7 @@ hr{
 }
 
 #skills{
-    background-color: #D8DBE2;
-    
-}
-
-#tech-skills{
-    background-color:#58A4b0;
-    padding-bottom: 0.25rem;
-    box-shadow: 10px 5px 5px #A9BCD0;
-
+    background-color: #D8DBE2;    
 }
 
 #portfolio{
@@ -91,6 +92,3 @@ hr{
     color:#A9BCD0;
 }
 
-footer{
-    background-color:#1b1b1e;
-}
